@@ -1,0 +1,32 @@
+# Created using wingetcreate manifest schema v1.12.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Remio.RemioHost
+PackageVersion: 2.1.3
+MinimumOSVersion: 10.0.17763.0
+InstallerType: inno
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+InstallerSwitches:
+  Silent: /SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS
+  SilentWithProgress: /SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS
+  Custom: /SP-
+UpgradeBehavior: install
+ReleaseDate: 2026-07-14
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/remioapp/releases/releases/download/v2.1.3-win/Remio-Host-Windows-x64-Setup.exe
+    InstallerSha256: 4752D4E1EFD1970507E8FF8005CB2B3AC2340FE5F745F1E2986DAA90FD7B06D7
+    ProductCode: '{BF4038C3-CAE3-46D1-BE01-14C9516528BF}_is1'
+    AppsAndFeaturesEntries:
+      - DisplayName: Remio Host
+        DisplayVersion: 2.1.3
+        Publisher: Remio
+        ProductCode: '{BF4038C3-CAE3-46D1-BE01-14C9516528BF}_is1'
+        UpgradeCode: '{BF4038C3-CAE3-46D1-BE01-14C9516528BF}'
+        InstallerType: inno
+ManifestType: installer
+ManifestVersion: 1.12.0
