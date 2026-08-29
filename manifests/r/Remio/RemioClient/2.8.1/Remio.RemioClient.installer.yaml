@@ -19,11 +19,11 @@ ReleaseDate: 2026-08-29
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/remioapp/releases/releases/download/v2.8.1-win/Remio-Client-Windows-x64-Setup.exe
-InstallerSha256: 52AC727EE370F11575B3DE572F7B088F9209B605F477AC0F5F2476F78F557148
+    InstallerSha256: 52AC727EE370F11575B3DE572F7B088F9209B605F477AC0F5F2476F78F557148
     ProductCode: '{D4175820-0BCF-41E9-B4B8-25787F58F8B9}_is1'
     AppsAndFeaturesEntries:
       - DisplayName: Remio Client
-DisplayVersion: 2.8.1
+        DisplayVersion: 2.8.1
         Publisher: Remio
         ProductCode: '{D4175820-0BCF-41E9-B4B8-25787F58F8B9}_is1'
         UpgradeCode: '{D4175820-0BCF-41E9-B4B8-25787F58F8B9}'
