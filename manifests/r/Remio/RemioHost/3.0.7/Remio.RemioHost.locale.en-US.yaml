@@ -35,7 +35,7 @@ Tags:
   - native
   - webrtc
 ReleaseNotes: |-
-  Remio Host 3.0.7 - Devices on your account get in without a code: a phone, tablet or computer signed in to the same Remio account as this PC now connects straight away, and removing or blocking a device finally sticks, including removals made from another computer. Phones, tablets and computers with a 120 Hz screen now get the full 120 fps instead of 60, and fast motion on your home network no longer builds up a delay.
+  Remio Host 3.0.7 - Devices on your account get in without a code: a phone, tablet or computer signed in to the same Remio account as this PC now connects straight away, and removing, blocking or renaming a device finally sticks, including removals made from another computer. Phones, tablets and computers with a 120 Hz screen now stream at up to 120 fps instead of 60, fast motion on your local network no longer builds up a delay, and Remio reconnects as soon as your PC wakes from sleep.
 ReleaseNotesUrl: https://github.com/remioapp/releases/releases/tag/v3.0.7-win
 PurchaseUrl: https://remio.net/download.html
 InstallationNotes: |-
