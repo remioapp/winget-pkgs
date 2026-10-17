@@ -1,0 +1,49 @@
+# Created using wingetcreate manifest schema v1.12.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: Remio.RemioHost
+PackageVersion: 3.3.9
+PackageLocale: en-US
+Publisher: Remio
+PublisherUrl: https://remio.net
+PublisherSupportUrl: https://remio.net/support
+PrivacyUrl: https://remio.net/privacy
+Author: Remio
+PackageName: Remio Host
+PackageUrl: https://remio.net/download.html
+License: Proprietary
+LicenseUrl: https://remio.net/terms
+Copyright: Copyright (c) 2026 Remio. All rights reserved.
+CopyrightUrl: https://remio.net/terms
+ShortDescription: Stream your Windows PC to any device with native, GPU-accelerated remote desktop.
+Description: |-
+  Remio Host turns your Windows PC into a streaming target that any Remio client (iPhone, iPad, Mac, Android, Windows) can connect to over the local network or the internet.
+
+  Built from scratch with native WinUI 3 - no Electron, no browser wrappers. Full GPU-accelerated H.264/H.265 screen capture, loopback audio, multi-monitor support, drag-and-drop file transfer, clipboard sync, and gamepad passthrough. Runs as a Windows Service so it survives reboots and log-offs.
+
+  Includes built-in auto-updates via WinSparkle (EdDSA-signed end-to-end), so you always have the latest version with one click.
+Moniker: remiohost
+Tags:
+  - remote-desktop
+  - streaming
+  - remote-control
+  - moonlight
+  - screen-share
+  - host
+  - rdp-alternative
+  - winui3
+  - native
+  - webrtc
+ReleaseNotes: |-
+  Remio Host 3.3.9 - This release is about speed. When your device shows this PC at 60 frames a second, what you type, click or scroll now appears in about half the time while this PC is plugged in, and the end of a scroll shows up right away. PCs with Intel graphics reach your devices up to 11 ms sooner and no longer pause when the picture adjusts; PCs with AMD graphics do less work on every frame, and an iPad in HDR runs at up to 120 frames a second on AMD built-in graphics. A phone or tablet used as a second display can no longer become this PC's main screen, and your sign-in now survives a restart.
+ReleaseNotesUrl: https://github.com/remioapp/releases/releases/tag/v3.3.9-win
+PurchaseUrl: https://remio.net/download.html
+InstallationNotes: |-
+  Remio Host installs to Program Files and registers a Windows Service (RemioHostSvc) that
+  spawns the main app into your interactive session at sign-in. After install, look for
+  the Remio icon in your system tray.
+Documentations:
+  - DocumentLabel: Getting Started
+    DocumentUrl: https://remio.net/how-it-works.html
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
